@@ -182,6 +182,7 @@ function animate() {
       cancelAnimationFrame(animationId);
       modalEl.style.display = "flex";
       bigScoreEl.innerHTML = score;
+init();
     }
 
     projectiles.forEach((projectile, projectileIndex) => {
